@@ -1,0 +1,40 @@
+.box{
+
+    height: 200px;
+
+    width: 200px;
+    /* /background-color:blue;
+    color: greenyellow; */
+    /* transition-duration: 5s; */
+    /* /transition-delay: 3s; */
+    /* transition-property: all;
+    transition-timing-function: ease-in; */
+    transition: all  2s linear 1s;
+
+
+
+    
+    animation-name: coloranimation;
+    animation-duration: 10s;
+    animation-timing-function: ease-in;
+     animation-delay: 2s;
+     animation-iteration-count: infinite;
+
+     position: absolute;
+     border-radius: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+/* .box:hover{
+    background-color: brown;
+    color: aquamarine;
+    font-size: 20px;
+
+} */
+@keyframes coloranimation{
+
+    from{background-color: aqua; left: 0px;}
+    to{background-color: green;left:100%; }
+
+}

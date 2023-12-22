@@ -1,0 +1,12 @@
+=======transitions=======
+    1.transitions-property
+    2.transitions-duration
+    3.transitions-timing-function
+    4.transitions-delay
+
+
+
+
+
+    =======animation property=======
+         
